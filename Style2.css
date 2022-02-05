@@ -1,0 +1,54 @@
+.maintext {
+    color: white;
+    width: 90%;
+    height: 70px;
+    margin-top: 20px;
+    font-family: 'Monoton', cursive;
+    font-size: 55px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(223, 222, 228));
+    text-align: center;
+    border-radius: 30px;
+    border:5px solid rgb(250, 252, 252);
+  }
+body {
+    background: url(https://cdn.wallscloud.net/converted/218445673-metro-exodus-z4pr-1600x900-MM-100.jpg) no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+.navbg {
+    background-color: black;
+}
+.foot {
+    background: url(Photoforsite/Footer.png);
+    font-family: 'Varela Round', sans-serif;
+}
+.foot a:hover {
+    text-decoration: none;
+}
+.wtxt {
+    color: white;
+}
+.message {
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: 'Varela Round', sans-serif;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width:1400px) {
+.maintext {
+    width: auto;
+    height: auto;
+    font-size: 45px;
+    margin: 0px;
+    padding: 10px;
+    margin-top: 20px;
+}
+body {
+    background-image: linear-gradient(to right, rgb(224, 224, 173), rgb(233, 230, 193)); 
+}   
+}
